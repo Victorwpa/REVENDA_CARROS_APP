@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cars', #Falando para o django que a app cars será usada, agora o django começa a enxergar esse app
 ]
 
 MIDDLEWARE = [
